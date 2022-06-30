@@ -7,9 +7,22 @@
 ###Background
 Steve is analyzing an entire dataset for researching stocks for his parents, which would be the best choice where they can invest. He wants to expand the dataset to include the entire stock market over the last few years. Although the existing code works well for a dozen stocks, it might not work well for thousands of stocks. And if it does, it may take a long time to execute.
 The running time was longer than the refactored code. It determined the refactoring of code successfully made the VBA script run faster. 
+Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+## Original script of 2017 Run Time
+<img width="260" alt="Screen Shot 2022-06-29 at 10 40 55 PM" src="https://user-images.githubusercontent.com/107584891/176594232-227065f4-b2f4-47e3-979b-2d7644642d58.png">
+
+## Original script of 2018 Run Time
+<img width="258" alt="Screen Shot 2022-06-29 at 10 43 05 PM" src="https://user-images.githubusercontent.com/107584891/176594545-44a834ea-8ab3-4229-bf95-34b20368219b.png">
+
+## Refactored script of 2017 Run Time
+<img width="258" alt="Screen Shot 2022-06-29 at 10 48 07 PM" src="https://user-images.githubusercontent.com/107584891/176594989-e7a1b7f4-2bb8-4110-97ec-489ddc52e1cb.png">
+## Refactored script of 2018 Run Time
+<img width="266" alt="Screen Shot 2022-06-29 at 10 49 10 PM" src="https://user-images.githubusercontent.com/107584891/176595146-1d2e93ad-83e5-41bc-849f-fa4156978245.png">
+ 
 
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
+
     Dim endTime  As Single
 
     yearValue = InputBox("What year would you like to run the analysis on?")
