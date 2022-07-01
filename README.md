@@ -3,11 +3,9 @@
 ## Overview of Project
 
 ### Purpose
- The purpose of this project was to refactor the solution code to loop through all the data one time to collect the same information that was in the earlier module so that it should reduce the run time significantly.
+The purpose of this project was to refactor the code so it could loop through all of the data once but in a shorter amount of time. The refactored code collects the same information in the earlier module, but the run time is shorter.
 ### Background
-Steve is analyzing an entire dataset for researching stocks for his parents, which would be the best choice where they can invest. He wants to expand the dataset to include the entire stock market over the last few years. Although the existing code works well for a dozen stocks, it might not work well for thousands of stocks. And if it does, it may take a long time to execute.
-The running time was longer than the refactored code. It determined the refactoring of code successfully made the VBA script run faster. 
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+Steve is analyzing this dataset to explore the best choice for where his parents should invest. He wants to expand the dataset to include the entire stock market over the last few years. Although the existing code works well for a dozen stocks, it might not work well for thousands of stocks. But even if it does, it may take a long time to execute. By refactoring the code, the run time for the expanded dataset makes the VBA script run faster and more efficiently.
 
 
 
