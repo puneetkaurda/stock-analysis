@@ -37,7 +37,7 @@ Sub AllStocksAnalysisRefactored()
     startTime = Timer
     
     'Format the output sheet on All Stocks Analysis worksheet
-    Worksheets("AllStocksAnalysis").Activate
+    Worksheets("All Stocks Analysis").Activate
     
     Range("A1").Value = "All Stocks (" + yearValue + ")"
     
@@ -112,7 +112,7 @@ Next i
 '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
 For i = 0 To 11
     
-    Worksheets("AllStocksAnalysis").Activate
+    Worksheets("All Stocks Analysis").Activate
     Cells(4 + i, 1).Value = tickers(i)
     Cells(4 + i, 2).Value = tickerVolumes(i)
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
@@ -120,7 +120,7 @@ For i = 0 To 11
 Next i
     
     'Formatting
-    Worksheets("AllStocksAnalysis").Activate
+    Worksheets("All Stocks Analysis").Activate
     Range("A3:C3").Font.FontStyle = "Bold"
     Range("A3:C3").Borders(xlEdgeBottom).LineStyle = xlContinuous
     Range("B4:B15").NumberFormat = "#,##0"
